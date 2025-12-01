@@ -1,5 +1,5 @@
 // Ganti nomor WhatsApp di sini (format internasional tanpa +)
-const ADMIN_WHATSAPP = "6281234567890";
+const ADMIN_WHATSAPP = "62882022761318";
 
 /**
  * Helper: Scroll halus ke section berdasarkan id
@@ -166,5 +166,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     elements.forEach((el) => observer.observe(el));
 });
+
 
 
