@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandeva Netflix</title>
+
+    <!-- 🌐 META TAG untuk preview WhatsApp, Telegram, Facebook, dll -->
+  <meta property="og:title" content="Sandeva Netflix" />
+  <meta property="og:description" content="Nikmati Streaming Netflix Premium 4K-UltraHD + HDR dengan harga murah, garansi aktif, dan pelayanan cepat hanya di Sandeva!" />
+  <meta property="og:image" content="https://files.catbox.moe/24wn1h.png" />
+  <meta property="og:url" content="https://www.sandevanetflixstore.my.id/" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#800080" />
+
+  <!-- 🧠 Favicon (ikon di tab browser) -->
+  <link rel="icon" type="image/gif" href="https://files.catbox.moe/24wn1h.png" />
+
+    <meta name="description" content="Layanan penjualan paket streaming Netflix bergaransi penuh dengan durasi fleksibel. Mulai 1 hari, 1 minggu, 1 bulan hingga 12 bulan.">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video class="video-bg" autoplay muted loop playsinline>
+        <source src="./media/background.mp4" type="video/mp4">
+    </video>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <span>📺 Halaman Paket Streaming Netflix • Semua paket bergaransi penuh sampai masa aktif berakhir.</span>
+    </div>
+
+    <!-- Navbar -->
+<header class="navbar">
+    <div class="container nav-inner">
+
+        <video class="hero-video-bg" autoplay muted loop playsinline>
+            <source src="./media/heronyaa.mp4" type="video/mp4" />
+        </video>
+
+        <div class="logo">
+            <img src="./media/logo-sandeva.png" alt="Sandeva Streaming Store" class="logo-img">
+            <span class="logo-title">SANDEVA</span>
+        </div>
+
+        <!-- Tombol Hamburger -->
+        <button class="nav-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+            <nav class="nav-links">
+                <a href="index.html#beranda" class="nav-link">Beranda</a>
+                <a href="packages.html" class="nav-link">Pilih Layanan</a>
+                <a href="#paket" class="nav-link">Paket Canva</a>
+                <a href="index.html#kontak" class="nav-link nav-cta">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECTION PAKET STREAMING -->
+    <section id="paket" class="section dark">
+        <div class="container">
+            <h2 class="section-title">Paket Streaming / Netflix Bergaransi Penuh</h2>
+            <p class="section-subtitle">
+                Pilih durasi sesuai kebutuhanmu. <strong>Semua paket di bawah ini bergaransi penuh aktif sampai masa paket berakhir</strong>. 
+                Harga bisa kamu sesuaikan sendiri di chat ke pembeli.
+            </p>
+
+            <div class="paket-list paket-grid-4">
+                <!-- Canva 1 Bulan -->
+                <div class="paket-card">
+                    <img src="./paketimg/canva.gif" class="paket-img" alt="Paket Sandeva">
+                    <div class="paket-label premium">Canva Pro</div>
+                    <div class="paket-tag garansi">Garansi Penuh</div>
+                    <h3>Canva Pro 1 Bulan</h3>
+                    <p class="paket-desc">Cocok untuk kebutuhan desain jangka pendek atau campaign tertentu.</p>
+                    <p class="harga">Rp 35.000 / 1 bulan</p>
+                    <ul class="paket-benefits">
+                        <li>Akun Pro aktif ±30 hari</li>
+                        <li>Tanpa watermark, fitur Pro lengkap</li>
+                        <li>Garansi penuh sampai masa paket berakhir</li>
+                    </ul>
+                    <div class="paket-meta">
+                        <span>Paket starter untuk mencoba Canva Pro.</span>
+                    </div>
+                    <button class="btn full" onclick="pesan('Canva Pro 1 Bulan')">Pesan Canva Pro 1 Bulan</button>
+                </div>
+
+                <!-- Canva 3 Bulan -->
+                <div class="paket-card paket-highlight">
+                    <div class="paket-label premium">Canva Pro</div>
+                    <div class="paket-tag garansi">Garansi Penuh</div>
+                    <h3>Canva Pro 3 Bulan</h3>
+                    <p class="paket-desc">Lebih hemat untuk content creator & social media specialist.</p>
+                    <p class="harga">Rp 90.000 / 3 bulan</p>
+                    <ul class="paket-benefits">
+                        <li>Akun aktif ±90 hari</li>
+                        <li>Cocok untuk freelancer & UMKM</li>
+                        <li>Garansi penuh selama masa paket</li>
+                    </ul>
+                    <div class="paket-meta">
+                        <span>Paket terlaris untuk kebutuhan desain rutin.</span>
+                    </div>
+                    <button class="btn full primary" onclick="pesan('Canva Pro 3 Bulan')">Pesan Canva Pro 3 Bulan</button>
+                </div>
+
+                <!-- Canva 6 Bulan -->
+                <div class="paket-card">
+                    <div class="paket-label premium">Canva Pro</div>
+                    <div class="paket-tag garansi">Garansi Penuh</div>
+                    <h3>Canva Pro 6 Bulan</h3>
+                    <p class="paket-desc">Setengah tahun akses untuk produksi konten intensif.</p>
+                    <p class="harga">Rp 165.000 / 6 bulan</p>
+                    <ul class="paket-benefits">
+                        <li>Akun aktif ±180 hari</li>
+                        <li>Support bantuan via WhatsApp</li>
+                        <li>Garansi penuh selama masa paket</li>
+                    </ul>
+                    <div class="paket-meta">
+                        <span>Cocok untuk agensi kecil atau brand yang aktif posting.</span>
+                    </div>
+                    <button class="btn full" onclick="pesan('Canva Pro 6 Bulan')">Pesan Canva Pro 6 Bulan</button>
+                </div>
+
+                <!-- Canva 12 Bulan -->
+                <div class="paket-card paket-most">
+                    <div class="paket-label premium">Canva Pro</div>
+                    <div class="paket-tag garansi">Garansi Penuh</div>
+                    <h3>Canva Pro 12 Bulan</h3>
+                    <p class="paket-desc">Paket paling hemat untuk agensi, brand dan bisnis yang serius dengan konten.</p>
+                    <p class="harga">Rp 300.000 / 12 bulan</p>
+                    <ul class="paket-benefits">
+                        <li>Akun aktif ±365 hari</li>
+                        <li>Biaya per bulan paling murah</li>
+                        <li>Support prioritas & panduan pemakaian</li>
+                    </ul>
+                    <div class="paket-meta">
+                        <span>Sangat cocok untuk penggunaan jangka panjang.</span>
+                    </div>
+                    <button class="btn full primary" onclick="pesan('Canva Pro 12 Bulan')">Pesan Canva Pro 12 Bulan</button>
+                </div>
+            </div>
+
+            <p class="paket-note">
+                Harga di atas hanya contoh. Kamu bebas mengganti sesuai strategi jualanmu, 
+                yang penting jelaskan ke pembeli bahwa semua paket bergaransi penuh sampai masa aktif berakhir.
+            </p>
+
+            <div style="text-align:center; margin-top:2rem;">
+                <a href="packages.html" class="btn outline">Kembali ke Pilihan Layanan</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© 2025 StreamPremium. Paket khusus layanan streaming / Netflix bergaransi penuh.</p>
+        </div>
+    </footer>
+
+    <script src="sandeva.js"></script>
+</body>
+</html>
