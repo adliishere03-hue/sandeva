@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandeva</title>
+
+    <!-- 🌐 META TAG untuk preview WhatsApp, Telegram, Facebook, dll -->
+  <meta property="og:title" content="Sandeva" />
+  <meta property="og:description" content="Nikmati Streaming Netflix Premium 4K-UltraHD + HDR dengan harga murah, garansi aktif, dan pelayanan cepat hanya di Sandeva!" />
+  <meta property="og:image" content="https://files.catbox.moe/24wn1h.png" />
+  <meta property="og:url" content="https://www.sandevanetflixstore.my.id/" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#800080" />
+
+  <!-- 🧠 Favicon (ikon di tab browser) -->
+  <link rel="icon" type="image/gif" href="https://files.catbox.moe/24wn1h.png" />
+
+    <meta name="description" content="Layanan penjualan paket streaming Netflix bergaransi penuh dengan durasi fleksibel. Mulai 1 hari, 1 minggu, 1 bulan hingga 12 bulan.">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video class="video-bg" autoplay muted loop playsinline>
+        <source src="./media/background.mp4" type="video/mp4">
+    </video>
+
+    <!-- Navbar -->
+<header class="navbar">
+    <div class="container nav-inner">
+
+
+        <div class="logo">
+            <img src="./media/logo-sandeva.png" alt="Sandeva Streaming Store" class="logo-img">
+            <span class="logo-title">SANDEVA</span>
+        </div>
+
+        <!-- Tombol Hamburger -->
+        <button class="nav-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links">
+            <a href="#beranda" class="nav-link">Beranda</a>
+            <a href="packages.html" class="nav-link">Paket</a>
+            <a href="#keunggulan" class="nav-link">Keunggulan</a>
+            <a href="#testimoni" class="nav-link">Testimoni</a>
+            <a href="#faq" class="nav-link">FAQ</a>
+            <a href="#joinreseller" class="nav-link">Join Reseller</a>
+            <a href="#kontak" class="nav-link nav-cta">Kontak</a>
+        </nav>
+
+    </div>
+</header>
+    <!-- Hero Section -->
+<section id="beranda" class="hero reveal">
+        <div class="container hero-inner">
+            <div class="hero-text reveal-left">
+                <h1 class="hero-title-with-logo">
+    <span>Layanan Streaming Netflix Premium Bergaransi Penuh</span>
+</h1>
+                <p>
+                    Pilih paket sesuai kebutuhan: <strong>1 hari, 1 minggu, 1 bulan hingga 12 bulan</strong>. 
+                    Semua paket dilindungi <strong>garansi penuh aktif sampai masa paket berakhir</strong>, dengan bantuan admin yang profesional.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="packages.html">
+                        Lihat Semua Paket
+                    </a>
+                    <button class="btn outline" onclick="scrollToSection('kontak')">
+                        Konsultasi Admin
+                    </button>
+                </div>
+                <div class="hero-info">
+                    <div>
+                        <span class="hero-info-number">+1.200</span>
+                        <span class="hero-info-label">Pelanggan Puas</span>
+                    </div>
+                    <div>
+                        <span class="hero-info-number">4.9⭐</span>
+                        <span class="hero-info-label">Rating Layanan</span>
+                    </div>
+                    <div>
+                        <span class="hero-info-number">&lt; 5 menit</span>
+                        <span class="hero-info-label">Rata-rata Proses</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-card reveal-right">
+                <div class="status-pill">100% Bergaransi Penuh</div>
+                <h2>Paket Durasi Fleksibel</h2>
+                <ul class="hero-benefits">
+                    <li>Durasi 1 Hari, 1 Minggu, 1–12 Bulan</li>
+                    <li>Garansi penuh aktif sampai akhir masa paket</li>
+                    <li>Panduan lengkap sampai bisa</li>
+                </ul>
+                <div class="hero-price">
+                    Mulai dari <span>Rp 5.000</span> (paket 1 hari)
+                </div>
+                <a class="btn full primary" href="packages.html">Lihat Detail Paket</a>
+                <p class="hero-note">
+                    Harga pada website dapat disesuaikan sewaktu-waktu. Selalu konfirmasi ke admin sebelum pembayaran.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keunggulan -->
+    <section id="keunggulan" class="section light reveal-left">
+        <div class="container">
+            <h2 class="section-title">Kenapa Pilih Sandeva?</h2>
+            <p class="section-subtitle">
+                Semua paket yang kami tampilkan sudah termasuk garansi penuh sampai masa aktif berakhir, dengan penjelasan yang transparan dan mudah dipahami.
+            </p>
+            <div class="grid-3">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Proses Cepat</h3>
+                    <p>Aktivasi hanya beberapa menit setelah pembayaran dikonfirmasi (selama admin online).</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Garansi Penuh Aktif</h3>
+                    <p>Dari paket harian hingga tahunan, garansi tetap aktif selama masa paket masih berjalan.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Support Ramah</h3>
+                    <p>Admin siap membantu memilih paket & menjelaskan cara penggunaan dari awal sampai paham.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preview Paket Populer -->
+    <section class="section dark reveal-right">
+    <div class="container">
+        <h2 class="section-title">Paket Paling Diminati</h2>
+        <p class="section-subtitle">
+            Tiga paket yang paling sering dipilih pelanggan. Ringkas, jelas, dan mudah dibandingkan.
+        </p>
+
+        <div class="paket-popular-grid">
+            <!-- 1 Bulan -->
+                <div class="paket-card">
+                    <img src="./paketimg/canva.gif" class="paket-img" alt="Paket Sandeva">
+                    <div class="paket-label premium">Canva Pro</div>
+                    <div class="paket-tag garansi">Garansi Penuh</div>
+                    <h3>Canva Pro 1 Bulan</h3>
+                    <p class="paket-desc">Cocok untuk kebutuhan desain jangka pendek atau campaign tertentu.</p>
+                    <p class="harga">Rp 35.000 / 1 bulan</p>
+                    <ul class="paket-benefits">
+                        <li>Akun Pro aktif ±30 hari</li>
+                        <li>Tanpa watermark, fitur Pro lengkap</li>
+                        <li>Garansi penuh sampai masa paket berakhir</li>
+                    </ul>
+                    <div class="paket-meta">
+                        <span>Paket starter untuk mencoba Canva Pro.</span>
+                    </div>
+                    <button class="btn full primary" onclick="pesan('Canva Pro 1 Bulan')">Pesan Canva Pro 1 Bulan</button>
+                </div>
+
+            <div class="paket-card paket-highlight">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label best">1 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 1 Bulan</h3>
+                <p class="paket-desc">Paket paling seimbang antara harga dan kenyamanan.</p>
+                <p class="harga">Rp 35.000 / 1 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±30 hari</li>
+                    <li>Garansi penuh aktif sampai masa paket berakhir</li>
+                    <li>Support prioritas via WhatsApp</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Paling direkomendasikan untuk pengguna baru.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 1 Bulan')">Pesan Paket 1 Bulan</button>
+            </div>
+
+            <!-- 12 Bulan -->
+            <div class="paket-card paket-most">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">12 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 12 Bulan</h3>
+                <p class="paket-desc">Paling hemat dan praktis untuk pemakaian jangka panjang.</p>
+                <p class="harga">Rp 300.000 / 12 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±365 hari</li>
+                    <li>Garansi penuh aktif sampai akhir masa paket</li>
+                    <li>Support VIP & follow-up berkala</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Biaya per bulan paling rendah.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 12 Bulan')">Pesan Paket 12 Bulan</button>
+            </div>
+        </div>
+
+        <div class="paket-popular-cta">
+            <a href="packages.html" class="btn primary">Lihat Semua Paket Lengkap</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimoni -->
+    <section id="testimoni" class="section light reveal-left">
+        <div class="container">
+            <h2 class="section-title">Testimoni Pelanggan</h2>
+            <p class="section-subtitle">
+                Contoh ulasan yang bisa kamu tampilkan untuk meningkatkan kepercayaan pembeli.
+            </p>
+
+            <div class="testi-list">
+                <div class="testi-card">
+                    <div class="testi-header">
+                        <span class="testi-name">Andi Pratama</span>
+                        <span class="testi-rating">⭐️⭐️⭐️⭐️⭐️</span>
+                    </div>
+                    <p class="testi-text">
+                        Ambil paket 1 bulan, garansi aktif terus. Admin responsif kalau ada pertanyaan. Recommended banget.
+                    </p>
+                    <span class="testi-date">Transaksi: Jan 2025</span>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-header">
+                        <span class="testi-name">Dimas Rahman</span>
+                        <span class="testi-rating">⭐️⭐️⭐️⭐️⭐️</span>
+                    </div>
+                    <p class="testi-text">
+                        Pernah ada kendala di tengah masa paket, garansi langsung diproses dan dibantu sampai beres.
+                    </p>
+                    <span class="testi-date">Transaksi: Feb 2025</span>
+                </div>
+
+                <div class="testi-card">
+                    <div class="testi-header">
+                        <span class="testi-name">Rizki Amelia</span>
+                        <span class="testi-rating">⭐️⭐️⭐️⭐️⭐️</span>
+                    </div>
+                    <p class="testi-text">
+                        Webnya profesional, dan garansinya beneran aktif selama masa paket. Bukan cuma gimmick doang.
+                    </p>
+                    <span class="testi-date">Transaksi: Mar 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section dark reveal-right">
+        <div class="container">
+            <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Apakah semua paket bergaransi penuh sampai berakhir?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Ya. Semua paket yang kami tampilkan sudah termasuk garansi penuh yang aktif selama masa paket 
+                        masih berjalan, sesuai ketentuan yang dijelaskan di awal oleh admin sebelum transaksi.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Bagaimana cara mengklaim garansi jika ada kendala di tengah masa paket?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Kamu cukup menghubungi admin melalui WhatsApp, sertakan bukti transaksi dan jelaskan kendalanya. 
+                        Selama masih dalam masa aktif paket dan sesuai ketentuan, admin akan membantu mencarikan solusi terbaik.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        Apakah harga di website ini bisa berubah?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        Harga dapat berubah sewaktu-waktu mengikuti kondisi dan kebijakan terbaru. 
+                        Selalu konfirmasi harga final & syarat garansi ke admin sebelum melakukan pembayaran.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JOIN RESELLER -->
+<section id="joinreseller" class="section dark reveal">
+    <div class="container">
+        <h2 class="section-title">Program Reseller Sandeva</h2>
+        <p class="section-subtitle">
+            Bergabung bersama <strong>Sandeva Streaming Store</strong> Sebagai Reseller dan
+            Dapatkan harga khusus, sistem cepat, dan dukungan penuh dari admin.
+        </p>
+            <div class="paket-card">
+                <img src="./paketimg/reseller.jpg" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label best">Reseller Pro</div>
+                <div class="paket-tag garansi">Official</div>
+                <h3>Paket Reseller PRO</h3>
+                <p class="paket-desc">Untuk kamu yang ingin jualan besar dengan keuntungan maksimal.</p>
+                <p class="harga">Rp 120.000 (1 Bulan)</p>
+                <ul class="paket-benefits">
+                    <li>Diskon paling murah dari semua paket</li>
+                    <li>Prioritas stok</li>
+                    <li>Group VIP Reseller</li>
+                    <li>Template promosi siap pakai</li>
+                    <li>Support VIP reseller</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Paket reseller paling lengkap & premium.</span>
+                </div>
+                <button class="btn full primary primary" onclick="pesan('Join Reseller PRO')">Daftar Reseller PRO</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="section light kontak reveal-left">
+        <div class="container kontak-inner">
+            <div class="kontak-text">
+                <h2 class="section-title">Hubungi Admin Sekarang</h2>
+                <p class="section-subtitle">
+                    Mau tanya paket terbaik atau langsung transaksi? Silakan chat admin, semua dibantu sampai beres.
+                </p>
+                <ul class="kontak-list">
+                    <li>✅ Semua paket bergaransi penuh</li>
+                    <li>✅ Konsultasi gratis sebelum beli</li>
+                    <li>✅ Dijelaskan durasi & ketentuan garansi</li>
+                </ul>
+                <a href="#" id="waDirectButton" class="btn primary">
+                    Chat via WhatsApp
+                </a>
+            </div>
+            <div class="kontak-card">
+                <h3>Form Singkat</h3>
+                <p>Isi form singkat ini, lalu klik tombol untuk menghubungi admin via WhatsApp.</p>
+                <div class="form-group">
+                    <label for="nama">Nama Kamu</label>
+                    <input type="text" id="nama" placeholder="Contoh: Budi">
+                </div>
+                <div class="form-group">
+                    <label for="paket">Paket yang Diminati</label>
+                    <select id="paket">
+                        <option value="">Pilih paket...</option>
+                        <option value="Paket 1 Hari">Paket 1 Hari</option>
+                        <option value="Paket 1 Minggu">Paket 1 Minggu</option>
+                        <option value="Paket 1 Bulan">Paket 1 Bulan</option>
+                        <option value="Paket 2 Bulan">Paket 2 Bulan</option>
+                        <option value="Paket 3 Bulan">Paket 3 Bulan</option>
+                        <option value="Paket 4 Bulan">Paket 4 Bulan</option>
+                        <option value="Paket 5 Bulan">Paket 5 Bulan</option>
+                        <option value="Paket 6 Bulan">Paket 6 Bulan</option>
+                        <option value="Paket 7 Bulan">Paket 7 Bulan</option>
+                        <option value="Paket 8 Bulan">Paket 8 Bulan</option>
+                        <option value="Paket 9 Bulan">Paket 9 Bulan</option>
+                        <option value="Paket 10 Bulan">Paket 10 Bulan</option>
+                        <option value="Paket 11 Bulan">Paket 11 Bulan</option>
+                        <option value="Paket 12 Bulan">Paket 12 Bulan</option>
+                        <option value="Paket Custom">Paket Custom</option>
+                    </select>
+                </div>
+                <button class="btn full primary" onclick="kirimForm()">Chat Admin Sekarang</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© 2025 Sandeva Streaming Premium X Netflix. Penyedia streaming Netflix dengan garansi penuh sampai masa aktif berakhir.</p>
+            <p class="footer-note">
+                
+            </p>
+        </div>
+    </footer>
+
+    <script src="sandeva.js"></script>
+</body>
+</html>
