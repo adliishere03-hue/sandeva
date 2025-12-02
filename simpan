@@ -1,0 +1,294 @@
+<img src="./media/sandevaganteng.gif" alt="Logo Sandeva" class="hero-title-logo">
+
+
+
+
+
+
+
+
+<section id="paket" >
+        <div class="container">
+            <h2 class="section-title">Semua Paket Bergaransi Penuh</h2>
+            <p class="section-subtitle">
+                Pilih durasi sesuai kebutuhanmu. <strong>Semua paket memiliki garansi penuh aktif sampai masa paket berakhir</strong>. 
+                Harga berikut bisa kamu sesuaikan sendiri.
+            </p>
+
+        <div class="paket-list paket-grid-4">
+            <!-- 1 Hari -->
+            <div class="paket-card paket-short">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label basic">1 Hari</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 1 Hari</h3>
+                <p class="paket-desc">Cocok untuk test layanan atau nonton 1–2 film.</p>
+                <p class="harga">Rp 5.000 / 1 hari</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±24 jam penuh</li>
+                    <li>Garansi aktif selama masa paket 1 hari</li>
+                    <li>Panduan singkat via chat</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Paket trial dengan garansi penuh selama aktif.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 1 Hari')">Pesan Paket 1 Hari</button>
+            </div>
+
+            <!-- 1 Minggu -->
+            <div class="paket-card paket-short">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label basic">1 Minggu</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 1 Minggu</h3>
+                <p class="paket-desc">Pas untuk maraton series pendek dan beberapa film.</p>
+                <p class="harga">Rp 15.000 / 7 hari</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±7 hari penuh</li>
+                    <li>Garansi penuh aktif selama 1 minggu</li>
+                    <li>Support via WhatsApp</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Ideal untuk pengguna baru yang mau coba lebih lama.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 1 Minggu')">Pesan Paket 1 Minggu</button>
+            </div>
+
+            <!-- 1 Bulan -->
+            <div class="paket-card paket-highlight">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label best">1 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 1 Bulan</h3>
+                <p class="paket-desc">Paket paling populer, nyaman dan fleksibel.</p>
+                <p class="harga">Rp 35.000 / 1 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±30 hari</li>
+                    <li>Garansi penuh selama masa paket</li>
+                    <li>Support prioritas</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Pilihan favorit kebanyakan pelanggan.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 1 Bulan')">Pesan Paket 1 Bulan</button>
+            </div>
+
+            <!-- 2 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">2 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 2 Bulan</h3>
+                <p class="paket-desc">Cocok untuk kamu yang ingin sedikit lebih lama dari bulanan.</p>
+                <p class="harga">Rp 65.000 / 2 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±60 hari</li>
+                    <li>Garansi penuh aktif selama 2 bulan</li>
+                    <li>Lebih hemat dari bayar 2x bulanan</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Transisi pas sebelum naik ke 3 bulan.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 2 Bulan')">Pesan Paket 2 Bulan</button>
+            </div>
+
+            <!-- 3 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">3 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 3 Bulan</h3>
+                <p class="paket-desc">Lebih hemat untuk pemakaian rutin jangka menengah.</p>
+                <p class="harga">Rp 90.000 / 3 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±90 hari</li>
+                    <li>Garansi penuh aktif sampai masa paket berakhir</li>
+                    <li>Monitoring dan bantuan berkala</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Lebih murah dibanding bayar bulanan 3x.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 3 Bulan')">Pesan Paket 3 Bulan</button>
+            </div>
+
+            <!-- 4 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">4 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 4 Bulan</h3>
+                <p class="paket-desc">Pilihan menarik buat kamu yang ingin langganan agak panjang.</p>
+                <p class="harga">Rp 115.000 / 4 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±120 hari</li>
+                    <li>Garansi penuh aktif selama masa paket</li>
+                    <li>Lebih hemat dari paket 3 bulan + 1 bulan</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Cocok untuk yang ingin konsisten 1 season penuh.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 4 Bulan')">Pesan Paket 4 Bulan</button>
+            </div>
+
+            <!-- 5 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">5 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 5 Bulan</h3>
+                <p class="paket-desc">Durasi nanggung tapi hemat, sebelum setengah tahun.</p>
+                <p class="harga">Rp 140.000 / 5 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±150 hari</li>
+                    <li>Garansi penuh aktif hingga 5 bulan</li>
+                    <li>Support berkala via WhatsApp</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Pilihan sebelum naik ke 6 bulan.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 5 Bulan')">Pesan Paket 5 Bulan</button>
+            </div>
+
+            <!-- 6 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">6 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 6 Bulan</h3>
+                <p class="paket-desc">Untuk pengguna setia yang ingin lebih tenang.</p>
+                <p class="harga">Rp 165.000 / 6 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±180 hari</li>
+                    <li>Garansi penuh selama masa paket 6 bulan</li>
+                    <li>Prioritas bantuan jika ada kendala</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Cocok untuk keluarga atau satu rumah.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 6 Bulan')">Pesan Paket 6 Bulan</button>
+            </div>
+
+            <!-- 7 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">7 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 7 Bulan</h3>
+                <p class="paket-desc">Durasi unik untuk kamu yang mau lebih dari setengah tahun.</p>
+                <p class="harga">Rp 190.000 / 7 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±210 hari</li>
+                    <li>Garansi penuh aktif selama 7 bulan</li>
+                    <li>Perhitungan per bulan lebih hemat</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Pas jika ingin aman sampai beberapa season.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 7 Bulan')">Pesan Paket 7 Bulan</button>
+            </div>
+
+            <!-- 8 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">8 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 8 Bulan</h3>
+                <p class="paket-desc">Untuk yang ingin langganan panjang tapi belum mau 1 tahun.</p>
+                <p class="harga">Rp 215.000 / 8 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±240 hari</li>
+                    <li>Garansi penuh aktif sampai masa paket berakhir</li>
+                    <li>Support berkala + info update</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Hampir setahun dengan harga masih terjangkau.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 8 Bulan')">Pesan Paket 8 Bulan</button>
+            </div>
+
+            <!-- 9 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">9 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 9 Bulan</h3>
+                <p class="paket-desc">Durasi super panjang dengan harga per bulan makin miring.</p>
+                <p class="harga">Rp 240.000 / 9 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±270 hari</li>
+                    <li>Garansi penuh aktif selama 9 bulan</li>
+                    <li>Support prioritas</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Cocok sebelum komit ke paket 12 bulan.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 9 Bulan')">Pesan Paket 9 Bulan</button>
+            </div>
+
+            <!-- 10 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">10 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 10 Bulan</h3>
+                <p class="paket-desc">Hampir setahun, harga per bulan sudah sangat hemat.</p>
+                <p class="harga">Rp 265.000 / 10 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±300 hari</li>
+                    <li>Garansi penuh aktif selama masa paket</li>
+                    <li>Support dan bantuan rutin</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Pilihan fleksibel sebelum benar-benar 12 bulan.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 10 Bulan')">Pesan Paket 10 Bulan</button>
+            </div>
+
+            <!-- 11 Bulan -->
+            <div class="paket-card">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">11 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 11 Bulan</h3>
+                <p class="paket-desc">Untuk kamu yang ingin “setahun kurang dikit”.</p>
+                <p class="harga">Rp 285.000 / 11 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±330 hari</li>
+                    <li>Garansi penuh aktif sampai masa paket berakhir</li>
+                    <li>Support VIP menjelang akhir paket</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Transisi mulus ke paket 12 bulan.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 11 Bulan')">Pesan Paket 11 Bulan</button>
+            </div>
+
+            <!-- 12 Bulan -->
+            <div class="paket-card paket-most">
+                <img src="./paketimg/netflix.gif" class="paket-img" alt="Paket Sandeva">
+                <div class="paket-label premium">12 Bulan</div>
+                <div class="paket-tag garansi">Garansi Penuh</div>
+                <h3>Paket 12 Bulan</h3>
+                <p class="paket-desc">Paling hemat untuk penggunaan jangka panjang.</p>
+                <p class="harga">Rp 300.000 / 12 bulan</p>
+                <ul class="paket-benefits">
+                    <li>Durasi ±365 hari</li>
+                    <li>Garansi penuh aktif sampai masa paket 12 bulan berakhir</li>
+                    <li>Support VIP & follow-up berkala</li>
+                </ul>
+                <div class="paket-meta">
+                    <span>Biaya per bulan paling rendah.</span>
+                </div>
+                <button class="btn full primary" onclick="pesan('Paket 12 Bulan')">Pesan Paket 12 Bulan</button>
+            </div>
+        </div>
+
+        <p class="paket-note">
+            
+        </p>
+
+        <div style="text-align:center; margin-top:2rem;">
+            <a href="index.html#kontak" class="btn outline">Kembali ke Halaman Utama</a>
+        </div>
+        </div>
+    </section>
